@@ -5,6 +5,7 @@
       #populardestinations {
         border: 4px solid red;
         margin: 4px;
+        color: rgba(0, 0, 5);
       }
       #goa {
         border: 5px solid blueviolet;
@@ -29,6 +30,7 @@
       #summer {
         border: 5px outset magenta;
         margin: 5px;
+        text-align: right;
       }
       #rainy {
         border: 5px inset violet;
@@ -37,17 +39,35 @@
       #winter {
         border: 5px dotted burlywood;
         margin: 5px;
+        text-align: center;
+        word-spacing: 5px;
       }
       #spring {
         border: 5px dashed maroon;
         margin: 5px;
+        text-align: justify;
+        word-spacing: 15px;
+        text-shadow: 5px 6px 5px #00ff00;
       }
       #home {
         border: 7px dashed yellow;
         margin: 5px;
       }
       .city {
-        color: blue;
+        color: rgb(0, 0, 255);
+        text-decoration: underline rgb(140, 0, 255) wavy;
+      }
+      h4{
+        text-transform: capitalize;
+      }
+      .rainy{
+        text-indent: 50px;
+        letter-spacing: -1px;
+        line-height: 5;
+      }
+      .summer{
+        letter-spacing: 5px;
+        line-height: 50px;
       }
     </style>
 
@@ -134,7 +154,7 @@
       <h2>Indian Climate</h2>
       <div id="summer">
         <h3>Summer:</h3>
-        <p>
+        <p class="summer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt
           earum perferendis ut laboriosam magni eius culpa quae consequatur
           exercitationem eum totam, qui cupiditate ab dicta rem saepe, optio
@@ -145,7 +165,7 @@
       </div>
       <div id="rainy">
         <h3>Rainy:</h3>
-        <p>
+        <p class="rainy">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
           quae vel amet repudiandae culpa velit dolorum veritatis quo, incidunt
           alias dolor vitae quod autem voluptates distinctio enim voluptatum
@@ -165,9 +185,7 @@
       <div id="spring">
         <h3>Spring:</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-          laboriosam, excepturi ut consectetur libero nisi aliquid iste
-          quibusdam suscipit pariatur!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi magni corporis, exercitationem, eveniet repellendus voluptatem similique nulla laudantium nesciunt consectetur quo, voluptate dolor. Vitae, assumenda ab molestias aspernatur nesciunt consectetur, aliquid accusamus cum impedit magni minima. Ut ducimus hic non deserunt autem? Reiciendis, eveniet quaerat harum saepe quis eos beatae at? Autem vitae blanditiis corrupti a adipisci. Obcaecati, voluptatum ullam. Cumque iure sit at quasi culpa labore maxime pariatur, nam dicta accusantium illum possimus, similique, natus omnis! Natus eum animi eveniet dolorum inventore, voluptatibus unde id facere maiores distinctio, expedita veniam reiciendis necessitatibus nihil ipsam. Eveniet a nemo vel excepturi!
         </p>
       </div>
     </div>
